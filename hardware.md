@@ -7,3 +7,4 @@ permalink: /hardware/
 ## Hardware
 
 describe hardware
+nweenw
