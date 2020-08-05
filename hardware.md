@@ -2,7 +2,7 @@
 layout: page
 title: Hardware
 permalink: /hardware/
-filename: hardware.md
+filename: hardware
 ---
 
 ## Hardware
