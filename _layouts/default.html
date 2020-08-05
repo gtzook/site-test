@@ -14,13 +14,12 @@
 
     <!-- HEADER -->
     <header class="site-header">
-
+      <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <div class="wrapper">
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
         {%- if titles_size > 0 -%}
           <nav class="site-nav">
             <input type="checkbox" id="nav-trigger" class="nav-trigger" />
