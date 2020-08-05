@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 
-header_pages: hardware.md
+header_pages: 
+  -hardware.md
