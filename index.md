@@ -1,7 +1,7 @@
------------------
+---
 layout: default
 filename: index
------------------
+---
 
 ## Open-source Haptic Bracelet
 
